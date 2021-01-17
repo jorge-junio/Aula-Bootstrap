@@ -1,0 +1,53 @@
+body{
+    font: 20px Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+}
+
+.navbar{
+    background: rgb(60, 60, 218);
+}
+
+.nav-item:hover{
+    background: rgb(87, 87, 218);
+}
+
+.quem-somos{
+    background: rgb(202, 193, 255);
+}
+
+.padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imagem-borda{
+    border: solid 2px white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.oqComemos{
+    background:rgb(0, 0, 0);
+    color: white;
+}
+
+.ondeVivemos{
+    background:rgb(122, 122, 219);
+}
+
+.div-selected:hover{
+    background: rgb(102, 102, 218);;
+}
+
+.padding-only-botton{
+    padding-bottom: 50px;
+}
+
+.bg-footer{
+    background-color: white;
+    color:black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 1px blue;
+}

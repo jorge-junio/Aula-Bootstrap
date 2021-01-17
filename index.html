@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="topoDaPagina">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="./imagens/icon-programador.png" alt="Imagem de uma cabeça de papai noel kkk" width="50">
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#quemSomos">Quem somos?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#ondeVivemos">Onde vivemos?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#oqComemos">O que comemos?</a>
+                </li>
+            </ul>
+          </div>
+        </div> 
+    </nav>
+    <section id="quemSomos">
+        <div class="container-fluid quem-somos text-center padding">
+            <h1 class="padding-only-botton">Quem somos?</h1>
+            <img class="rounded-circle imagem-borda" src="./imagens/programador.jpg" alt="Imagem de um papai noel" width="20%" height="20%">
+            <p> Somos seres comprometidos com a inovação e buscamos sempre criar coisas novas para a sociedade e automatizar processos.</p>
+        </div>
+    </section>
+    <section id="ondeVivemos">
+        <div class="container-fluid text-center padding ondeVivemos">
+            <h1 class="padding-only-botton">Onde vivemos?</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 div-selected">
+                        <img class="rounded-circle imagem-borda" src="./imagens/desktop-gamer.jpg" alt="Imagem de um papai noel" width="60%" height="60%">
+                    </div>
+                    <div class="col-md-4 div-selected">
+                        <img class="rounded-circle imagem-borda" src="./imagens/desktop-gamer.jpg" alt="Imagem de um papai noel" width="60%" height="60%">
+                    </div>
+                    <div class="col-md-4 div-selected">
+                        <img class="rounded-circle imagem-borda" src="./imagens/desktop-gamer.jpg" alt="Imagem de um papai noel" width="60%" height="60%">
+                    </div>
+                </div>
+            </div>
+             <p> Vivemos na frente do computador estudando, jogando, assistindo, e vez ou outra nos aventuramos em ambimentes desconhecidos que todos chamam de "festas".</p>
+        </div>
+    </section>
+    <section id="oqComemos">
+        <div class="container-fluid text-center padding oqComemos">
+            <h1 class="padding-only-botton">O que comemos?</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Café 1 blá blá blá...</p>
+                        <img class="rounded-circle imagem-borda" src="./imagens/cafe.jpg" alt="Imagem de um papai noel" width="60%" height="60%">
+                    </div>
+                    <div class="col-md-6">
+                        <p>Café 2 blá blá blá...</p>
+                        <img class="rounded-circle imagem-borda" src="./imagens/cafe-2.jpg" alt="Imagem de um papai noel" width="60%" height="60%">
+                    </div>
+                </div>
+            </div>
+            <p> Nos alimentamos de café e nada mais além de café. Ele é o que corre em nossas veias.</p>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer">
+        <p>
+            <a href="https://github.com/jorge-junio" target="_blank">Desenvolvido por Jorge da Silva</a>
+        </p>
+    </footer>
+</body>
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
